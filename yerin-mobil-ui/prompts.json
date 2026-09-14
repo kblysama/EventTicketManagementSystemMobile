@@ -1,0 +1,99 @@
+{
+  "method": "Built-in image_gen; revision v2",
+  "basePrompt": "Create ONE high-fidelity native iPhone screen UI mockup for Turkish event app yerin. Use the attached Yerin WEB design as authoritative visual reference, adapted to MOBILE. Portrait 390:844 aspect ratio. Full screen flat image, NO device frame. ALL text must be in Manrope (regular 400 body, 600 labels, 700 headings); NOT heavy extra-bold oversized lettering. Main canvas #F5F9F8 off-white (at least 65% of screen), white #FFFFFF cards and inputs, fine #D9E4E3 borders. Mint #C2FCF7 ONLY selected badges/small feature card/active chip; pale cyan #C9FBFF ONLY small info notice. Muted #57737A labels, #85BDBF charts. Primary buttons #040F0F with mint text, 10px radii, 48px height. Main text near-black #040F0F. Calm refined editorial utility app matching the web reference. 24px horizontal padding, heading 28px, body 14px; roomy but compact practical hierarchy. NO cyan full screen background, NO gradients/glow, NO excessive pill cards, NO huge promotional paragraphs, NO invented features. iOS 9:41 status bar and home indicator. Wordmark yerin. small 28px. All Turkish content accurate. Event poster where explicitly called for: near-black with ONE broad teal/slate cropped ring and 'KIYIDA CAZ.' as WEB reference, not many thin rings. Render only specified content. Keep all content inside screen bounds. ",
+  "screens": [
+    [
+      "01-acilis",
+      "Splash screen on off-white #F5F9F8. Center small near-black yerin. Manrope wordmark with slate dot, tiny tagline 'Güzel anlarda yerin var.' Slim mint loading indicator near bottom. No illustration, seal, or giant letter."
+    ],
+    [
+      "02-giris",
+      "Login screen. Small yerin. top, heading 'Tekrar hoş geldin.' subtitle 'Güzel bir plana kaldığın yerden devam et.' White labeled email and password fields. Şifremi unuttum text link, dark Giriş yap button, Kayıt ol footer link. No ticket, poster or event cards. Match web login form."
+    ],
+    [
+      "03-kayit",
+      "Kayıt. Heading 'Güzel anılar bir hesapla başlar.' fields Ad soyad, E-posta, Şifre, Şifre tekrarı. Hesap oluştur button. Katılımcı hesabı small note."
+    ],
+    [
+      "04-sifremi-unuttum",
+      "Şifremi unuttum. Back arrow. Circular arrow icon. Heading 'Şifreni mi unuttun?' explanatory Turkish text, E-posta field, Sıfırlama bağlantısı gönder primary button."
+    ],
+    [
+      "05-yeni-sifre",
+      "Yeni şifre belirleme. Back arrow, circular reset icon, heading 'Hesabına yeniden kavuş.' New password and repeat fields, 'Şifreyi kaydet' button."
+    ],
+    [
+      "06-hesabim",
+      "Hesabım. 'Merhaba, Deniz.' DY circular avatar, Deniz Yılmaz, deniz@ornek.com, Katılımcı badge, Biletlerim and Siparişlerim rows with arrows. Light Çıkış yap button. Bottom tabs Keşfet Biletlerim Siparişlerim Hesabım selected."
+    ],
+    [
+      "07-kesfet",
+      "Discovery home. Logo yerin. İstanbul pill. Heading 'Bugün nerede olmak istersin?' category pills Senin için selected, Müzik, Atölye, Sahne. 'Kaçırmak istemezsin' section. Large abstract event poster and Kıyıda Caz title ₺750, 24 Eki · 20.00 · Beykoz Kundura. A second partially visible Seramikle Bir Pazar card. Bottom tabs Keşfet selected, Biletlerim, Siparişlerim, Hesabım."
+    ],
+    [
+      "08-etkinlik-detayi",
+      "Event detail. Back header Etkinlik. Hero abstract poster. Canlı Müzik badge. Kıyıda Caz large title. Kundura Sahne tarafından. Date location card 24 Ekim 2026 20.00 Beykoz Kundura. Heading 'Bu akşam sana iyi gelecek.' brief description. Footer ₺750 Genel Giriş and Yerini ayır button."
+    ],
+    [
+      "09-bilet-secimi",
+      "Checkout. Back header Yerini ayır. Heading 'Bu akşamda senin de yerin var.' event summary Kıyıda Caz 24 Eki 20.00. Bilet tipi dropdown Genel Giriş ₺750, quantity control 1. Summary Genel Giriş × 1 ₺750, İşlem ücreti ₺0, Toplam ₺750. Demo satın alma note no real charge. Primary 'Satın almayı onayla'."
+    ],
+    [
+      "10-satin-alma-sonucu",
+      "Purchase success. Large circular check icon, 'Yerin hazır, Deniz.' and 'Kıyıda Caz için biletin seni bekliyor.' small abstract event banner. Order #YRN-1042, 1 × Genel Giriş, ₺750, Demo Tamamlandı badge. Buttons Biletimi göster and Sipariş detayına git."
+    ],
+    [
+      "11-biletlerim",
+      "My tickets. 'Biletlerin burada.' Tabs Yaklaşan · 1 selected, Geçmiş · 0. Small abstract event art followed by ticket perforated card with Kullanılmadı badge, Kıyıda Caz, 24 Eki 20.00 Beykoz Kundura, Genel Giriş, 1 bilet. Bileti aç button. Bottom tabs Keşfet Biletlerim selected Siparişlerim Hesabım."
+    ],
+    [
+      "12-bilet-detayi",
+      "Ticket details. Header Biletin. Title 'İçeriye bir kod uzaklık.' Mint perforated ticket card, YERİN / DİJİTAL BİLET, Kullanılmadı badge, Kıyıda Caz, 24 Eki 2026 20.00, Genel Giriş, Deniz Yılmaz. Large square QR-like illustrative code, code YRN-261024-A7K2. Beykoz Kundura İstanbul. Footer 'Girişte QR kodunu görevliye göster.'"
+    ],
+    [
+      "13-siparislerim",
+      "My orders. Headline 'Siparişlerin.' subtitle Planladığın güzel anların özeti. One order card #YRN-1042 Tamamlandı badge, Kıyıda Caz, 18 Eylül 2026, 1 bilet, ₺750 and Detayları gör. Generous space. Bottom tabs Keşfet Biletlerim Siparişlerim selected Hesabım."
+    ],
+    [
+      "14-siparis-detayi",
+      "Order detail. Back header Sipariş detayı. Large #YRN-1042. Tamamlandı · Demo badge. Kıyıda Caz, 24 Ekim 2026 20.00 Beykoz Kundura. Genel Giriş × 1 ₺750; İşlem ücreti ₺0; Toplam ₺750. Sipariş tarihi 18 Eylül 2026 14.32, Katılımcı Deniz Yılmaz. Primary Siparişin biletini göster."
+    ],
+    [
+      "15-etkinliklerim",
+      "Organizer home. Small KUNDURA SAHNE, headline 'Sen kur. Şehir buluşsun.' 1 etkinlik and + Yeni etkinlik. Abstract concert poster. Kıyıda Caz, Yayında, 24 Eki 20.00 Beykoz Kundura. Stats Satılan bilet 120/200, Toplam satış ₺90.000. Etkinliği yönet button. Bottom tabs Etkinliklerim selected Check-in Hesabım."
+    ],
+    [
+      "16-etkinlik-formu",
+      "Organizer event form. Header Etkinlik formu. 'Bir buluşma tasarla.' Compact vertically stacked labeled inputs: Etkinlik adı Kıyıda Caz, Açıklama Boğaz kıyısında caz akşamı, Konum Beykoz Kundura, Başlangıç 24.10.2026 20.00, Bitiş 24.10.2026 23.00, Kapak görseli URL’si https://…, Yayın durumu Yayında dropdown. Etkinliği kaydet button. Fit all legibly."
+    ],
+    [
+      "17-etkinlik-yonetimi",
+      "Organizer event management detail. Back Etkinlik yönetimi. Small abstract poster, Kıyıda Caz, Yayında, 24 Eki 20.00 Beykoz Kundura. Stats Bilet 120 Check-in 48. Buttons Check-in başlat dark, Satış özetini gör light, Etkinliği düzenle light. Etkinliği sil underlined text."
+    ],
+    [
+      "18-satis-ozeti",
+      "Organizer sales report. Header Satış özeti. 'Buluşmanın sayıları.' Compact mint revenue card TOPLAM SATIŞ ₺90.000 Kıyıda Caz. Two mint stats Satılan bilet 120, Check-in 48. Bilet dağılımı: Genel Giriş 120 / 200 with 60 percent progress bar, 80 kişiye daha yer var. Giriş oranı %40, 120 biletin 48’i doğrulandı. Canlı veriler badge."
+    ],
+    [
+      "19-check-in-secimi",
+      "Organizer event selection for scanning. Headline 'Hangi etkinlikte buluşuyoruz?' subtitle Biletleri doğrulamak için etkinliğini seç. Abstract concert artwork. Card 24 Ekim · Bugün, Kıyıda Caz, 20.00 Beykoz Kundura, 48 / 120 giriş, 72 kişi bekleniyor. Biletleri doğrula button. Bottom tabs Etkinliklerim Check-in selected Hesabım."
+    ],
+    [
+      "20-bilet-dogrulama",
+      "Check-in screen. Header Check-in, eyebrow KIYIDA CAZ. Heading 'Kodu okut. Güzel an başlasın.' Large dark camera placeholder with mint square targeting brackets and scan line. Caption QR kodunu çerçevenin içine yerleştir. Manual Bilet kodu input YRN-261024-A7K2 and Doğrula button. Success mint card check icon 'Giriş onaylandı', Deniz Yılmaz · Genel Giriş, 24 Ekim 2026 20.42."
+    ],
+    [
+      "21-tum-etkinlikler",
+      "Admin all events. Eyebrow YERİN / YÖNETİM. 'Şehrin bütün buluşmaları.' Pills Tümü · 2, Yayında · 2, Taslak · 0. Small abstract poster then Kıyıda Caz card Yayında, Kundura Sahne, 24 Ekim 2026, Yönetim detayını gör. Second compact card Seramikle Bir Pazar, Yayında, Moda Atölye 27 Eylül. Bottom tabs Etkinlikler selected Siparişler Hesabım."
+    ],
+    [
+      "22-tum-siparisler",
+      "Admin all orders. YERİN / YÖNETİM, headline 'Her sipariş, yeni bir plan.' Mint card KIYIDA CAZ / SATIŞ TOPLAMI ₺90.000, 120 bilet · 120 sipariş. Son sipariş card #YRN-1042 Tamamlandı, Deniz Yılmaz, Kıyıda Caz · 1 Genel Giriş, 18 Eyl 2026 14.32, ₺750 Detay arrow. Bottom tabs Etkinlikler Siparişler selected Hesabım."
+    ],
+    [
+      "23-yonetim-etkinlik-detayi",
+      "Admin read-only event detail. Back header Yönetim detayı. Abstract small concert poster. Kıyıda Caz large title Yayında badge. ORGANIZER card Kundura Sahne, sahne@ornek.com. Clean divider rows Tarih ve saat 24 Ekim 2026 20.00–23.00; Konum Beykoz Kundura İstanbul; Bilet tipi Genel Giriş · ₺750 · Kapasite 200. Small Salt okunur yönetim görünümü caption. No edit actions."
+    ]
+  ],
+  "reference": "Yerin web UI screenshots; Manrope throughout; off-white main surfaces."
+}

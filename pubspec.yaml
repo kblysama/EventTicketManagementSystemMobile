@@ -1,0 +1,44 @@
+name: yerin_mobile
+description: Yerin etkinlik ve biletleme mobil uygulaması.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.19.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.0.1
+  dio: ^5.9.0
+  flutter_secure_storage: ^10.0.0
+  shared_preferences: ^2.5.3
+  web_socket_channel: ^3.0.3
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.4.1
+  image_picker: ^1.2.0
+  intl: any
+  app_links: ^6.4.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/yerin-logo.png
+  remove_alpha_ios: true
+  background_color_ios: '#F5F9F8'

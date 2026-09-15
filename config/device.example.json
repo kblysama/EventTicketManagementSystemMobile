@@ -1,0 +1,7 @@
+{
+  "API_URL": "https://your-yerin-host.example/api",
+  "REVERB_HOST": "your-reverb-host.example",
+  "REVERB_PORT": 443,
+  "REVERB_APP_KEY": "replace-with-backend-public-key",
+  "REVERB_TLS": true
+}

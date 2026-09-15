@@ -1,0 +1,7 @@
+{
+  "API_URL": "http://localhost:8000/api",
+  "REVERB_HOST": "localhost",
+  "REVERB_PORT": 8080,
+  "REVERB_APP_KEY": "replace-with-backend-public-key",
+  "REVERB_TLS": false
+}
